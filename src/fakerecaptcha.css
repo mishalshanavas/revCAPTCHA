@@ -1,6 +1,13 @@
 .container {
     font-family: 'Source Sans Pro', sans-serif;
 }
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 input {
     margin-top: 20px;
@@ -199,3 +206,4 @@ input {
     outline: none;
     cursor: pointer;
 }
+
