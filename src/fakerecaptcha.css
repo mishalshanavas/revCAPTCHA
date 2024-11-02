@@ -1,14 +1,33 @@
-.container {
-    font-family: 'Source Sans Pro', sans-serif;
+*{
+    box-sizing: border-box;
 }
+
+.container {
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    justify-content: left;
+}
+.title{
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.text {
+    font-family: 'Press Start 2P';
+    margin: 0;
+    margin-bottom: 20px;
+}
+.text-1 {
+    font-family: 'Courier New', Courier, monospace;
+} 
 body, html {
     height: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-
 input {
     margin-top: 20px;
     margin-bottom: 40px;
