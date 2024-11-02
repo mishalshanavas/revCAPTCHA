@@ -43,7 +43,7 @@ function loadQuestion() {
 
 function endQuiz(message) {
     closeVerifyWindow();
-    document.getElementById("checkbox").style.border = "2px solid #cc0033"; // Set border color to red
+    document.getElementById("checkbox").style.border = "2px solid #ff0000"; // Set border color to red
     document.getElementById("result-text").innerText = message;
     document.getElementById("checkbox").disabled = true;
 }
